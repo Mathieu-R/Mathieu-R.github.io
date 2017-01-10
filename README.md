@@ -1,3 +1,3 @@
 # Mathieu-R.github.io
 
-Simple projects or test that need a server. 
+Simple projects or tests that need a server. 
