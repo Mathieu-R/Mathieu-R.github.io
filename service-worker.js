@@ -47,7 +47,7 @@ self.onfetch = event => {
 				const request = event.request.clone(); // Because request is a stream
 				return fetch(request) // Fetch the resource
 					.then((response) => {
-						caches.open(cacheName) // Open the cache
+						caches.open(version) // Open the cache
 							.then(cache => {
 								const responseClone = response.clone(); // Because response is a stream
 								console.log(`[Service Worker] Mise en cache: ${responseClone}`) 
