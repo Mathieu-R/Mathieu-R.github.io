@@ -51,7 +51,7 @@ self.onfetch = event => {
 								console.log(`[Service Worker] Mise en cache: ${responseClone}`) 
 								cache.put(event.request, responseClone); // Put the response in the cache
 								return responseClone; // Return the response
-						}
+						})
 					}).catch(e => console.log(`[Service Worker] Erreur lors de la récupération de la ressource`, e));
 			})
 	)
