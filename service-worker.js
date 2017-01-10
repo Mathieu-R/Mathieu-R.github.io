@@ -42,7 +42,7 @@ self.onfetch = event => {
 			.then(res => {
 				if (res) { // Found 
 					console.log(`[Service Worker] Ressource trouvée dans le cache ${event.request.url}`);
-					return response; // Return resource from cache
+					return res; // Return resource from cache
 				}
 				const request = event.request.clone(); // Because request is a stream
 				return fetch(request) // Fetch the resource
