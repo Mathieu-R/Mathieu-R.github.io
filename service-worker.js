@@ -1,9 +1,11 @@
 const version = 'v1';
 
 const cacheFiles = [
+	"/",
+	"index.html",
 	"js/S11.js",
-	"S11.html",
 	"js/barcode39.js",
+	"js/app.js",
 	"css/S11.css"
 ];
 

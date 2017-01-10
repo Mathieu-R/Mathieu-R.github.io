@@ -1,6 +1,7 @@
 // Variables globales 
 
-let fruits = [ // tableau d'objets {fruit: 'poire', prix: 4.16},
+let fruits = [ // tableau d'objets 
+	{fruit: 'poire', prix: 4.16},
 	{fruit: 'ananas', prix: 2.99},
 	{fruit: 'dattes', prix: 6.25},
 	{fruit: 'orange', prix: 1.50},
