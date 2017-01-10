@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+}
+
+body {
+	width: 650px;
+	display: inline-flex;
+}
+
+#left_bloc, #right_bloc {
+	width: 310px;
+	border: double solid gray;
+	background: lightgray;
+	padding: 15px;
+}
+
+#left_bloc {
+	margin-right: 10px;
+}
+
+
+#list {
+	float: left;
+	width: 150px;
+}
+
+#buttons {
+	float: right;
+}
+
+select {
+	padding: 5px 10px;
+}
+
+#left_list {
+	margin-right: -5px;
+}
+
+fieldset, legend {
+	border: 1px dotted black;
+	background: whitesmoke;
+}
+
+legend {
+	padding: 3.5px 5px;
+}
+
+#weighing {
+	margin-bottom: 10px; 
+}
+
+select {
+	overflow: hidden;
+}
+
+table {
+	border: double black;
+	background: beige;
+	width: 100%;
+}
+
+.title {
+	font-style: italic;
+	border-bottom: 1px solid black;
+}
+
+.article {
+	text-align: left;
+}
+
+.info {
+	text-align: right;
+}
+
+.prix {
+	color: blue;
+	font-weight: bold;
+}
+
+th {
+	font-weight: normal;
+	text-align: right;
+}
+
+td {
+	border-collapse: collapse;
+	border: 1px dashed black;
+}
+
+#total {
+	border: double black;
+	color: red;
+	font-weight: bold;
+	text-align: right;
+}
